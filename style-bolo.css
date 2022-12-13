@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Solway&display=swap');
+
+
+body{
+
+
+
+    background: url(img/fundo_chantininhorosa.jpg)no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+   
+
+
+h1{
+    font-size: 55px;
+    color: aliceblue;
+    font-family: 'Lobster', cursive;
+}
+
+.tabela {
+    align-items: center;
+    margin: 50px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px;
+    text-align: center;
+    
+
+
+
+}
+
+th {
+    font-size: 45px;
+    color: white;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+
+button {
+    background-image: rgb(241, 227, 227);
+    opacity: 0.75;
+   font-family:'Solway', serif;
+    font-size: 27px;
+    color:rgb(0, 0, 0);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+   
+
+}
+
+
+.picture__input {
+    display: none;
+}
+
+.picture {
+    width: 240px;
+    height: 140px;
+    aspect-ratio: 16/9;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(243, 148, 164);
+    border: 2px dashed #aaa;
+    cursor: pointer;
+    font-family: sans-serif;
+    border-radius: 15%;
+    margin-left: 58px;
+}
+
+.a{
+   width: 260px;
+   height: 75px;
+   font-size: 19px;
+    margin:18px;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+}
+.b{ width: 250px;
+    height: 70px;
+
+  font-size: 21px;
+  margin: 3px;
+  margin-left: 40px;
+  color: rgb(0, 0, 0);
+ 
+ 
+
+}
+
+
+
+.c{    
+    width: 250px;
+    height: 70px;
+
+  font-size: 21px;
+  margin: 4px;
+
+
+}
+
+.d{
+    width: 225px;
+    height: 70px;
+
+  font-size: 21px;
+
+}
+
+.g{    
+    width: 250px;
+    height: 70px;
+
+  font-size: 21px;
+  margin: 10px;
+
+
+}
+h3{
+    font-size: 19px;
+    padding-bottom: 25PX;
+    margin: 10px;
+}
+
+
+
+.y{ width: 250px;
+    height: 70px;
+   font-size: 21px;
+  margin: 10px;
+  margin-left: 40px;
+ 
+
+}
+.z{
+    width: 250px;
+    height: 70px;
+    font-size: 21px;
+    margin: 10px;
+
+}
+
+ .m{font-size: 19px;
+    padding-bottom: 30PX;
+    margin: 10px;
+ }
+ 
+ .th-massas{
+padding-top: 53px;
+font-size: 40px;
+ }
+
+ .esp1{
+    padding-bottom: 40px;
+    padding-left: 33px;
+    font-size: 19px;
+ }
+
+ .esp2{
+    padding-bottom: 35px;
+    font-size: 19px;
+ }
+ .tr{
+    margin: 10px;
+ }
+
+ .td-red{
+    margin:10px;
+ }
+
+ .adc-bt{
+    margin:10px;
+    width: 250px;
+    height: 70px;
+    font-size: 19px;
+    margin: 10px;
+    
+               
+ }
+
+ .modelo{
+    padding-left: 90px;
+    font-size: 17px;
+    padding-top: 20px;
+    background-color: white;
+    padding: 40px 30px;
+  margin-top:30px;
+opacity: 0.60;
+background-size: 90px;
+border-radius: 10%;
+height: 75px;
+width: 170px;
+margin-left: 70px;
+ }
+ .trad{
+    font-size: 19px;
+ }
+ .th1{
+    padding-bottom: 15px;
+ }
+ .arrow-link {
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    bottom: 630px;
+    left: 50px;
+    background-color: #ffffff;
+    z-index: 1000;
+    border-radius: 50%;
+    background-image: url(img/icons8-chevron-72.png);
+    background-position:center;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px rgb(247, 100, 164);}
+   
+    .arrow-link:hover {
+        transform: translateY(-10px);
+        background-color: rgb(255, 104, 157);
+        border-radius: 50%;
+    }
+    button:hover{ background-color:  rgb(255, 104, 157);
+        width: 230px;
+        height: 120px;
+        color:white
+
+    }
+    .picture:hover{
+        background-color: rgb(255, 104, 157)  ;
+        color:white;
+    }
+    .th2{
+        padding-top: 52px;
+    }
+    .th3{
+        padding-top: 52px;
+    }
+    .titulo{
+        font-size: 70px;
+    }
+    .b40{
+        background-color: rgb(255, 104, 157);
+        color: white;
+        width: 250px;
+        height: 120px;
+        margin-right: 60px;
+        margin-left: 20px;
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    .b40:hover{
+        background-color:  rgb(26, 185, 18);
+        color: black;
+        width:260px ;
+       height: 130px;
+    }
+
+    form{
+        size:50%;
+        float: right;
+        bottom: 30%;
+        margin-right:90px;
+     }
+     label{
+        font-size: 25px;
+        color:black;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     }
+     #number{
+        width: 100px;
+        height: 40px;
+        font-size: 30px;
+        
+     }
+     
+     
+     .tdinput{
+        margin-top: 40px;
+     }

@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Solway&display=swap');
+p{
+    font-size: 55px;
+    color: aliceblue;
+    font-family: 'Lobster', cursive;
+
+}
+body{
+    background-image: url(img/bb1.webp);
+    background-size: cover;
+}
+
+.tabela {
+    align-items: center;
+    margin: 50px;
+    margin-left: 120px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 650PX;
+    height: 600px;
+
+}
+td,th{
+
+    text-align: center;
+    margin: 10PX;
+    width: 200PX;
+    height: 75PX;
+}
+button{
+    background-image: rgb(241, 227, 227);
+    opacity: 0.75;
+    font-family:'Solway', serif;
+    font-size: 27px;
+    color:rgb(0, 0, 0);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 240px;
+    height: 75px;
+ 
+}
+
+
+.tabela{
+    float: left;
+  margin-bottom: 80px;
+  
+   
+}
+
+.tabela1{
+    float: right;
+    margin-top: 50px;
+    margin-right: 60px;
+
+  
+}
+.a1{
+    margin-bottom: 48px;
+}
+.b1{
+    margin-bottom: 30px;
+}
+.a{
+    margin-bottom: 47px;
+}
+.b{
+    margin-bottom: 30px;
+}
+.th1{
+    padding-bottom: 50px;
+    color: white;
+}
+.th2{
+    padding-bottom: 50px;
+    color: white;
+}
+.th1, .th2, .th3{
+    font-size: 35px;
+    color: white;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+h3{
+    font-size: 20px;
+}
+.esp{
+    font-size: 17px;
+    color: white;
+}
+
+.arrow-link {
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    bottom: 630px;
+    left: 50px;
+    background-color: #ffffff;
+    z-index: 1000;
+    border-radius: 50%;
+    background-image: url(img/icons8-chevron-72.png);
+    background-position:center;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px rgb(247, 100, 164);}
+   
+    .arrow-link:hover {
+        transform: translateY(-10px);
+        background-color: rgb(255, 104, 157);
+        border-radius: 50%;
+    }
+    .b40{
+        background-color: rgb(255, 104, 157);
+        color: white;
+        width: 220px;
+        height: 100px;
+        margin-left: 80px;
+        margin-top: 10px;
+        font-size: 30px;
+        float: left;
+        margin-right: 30px;
+       
+    }
+    .b40:hover{
+        background-color:  rgb(26, 185, 18);
+        color: black;
+        width: 220px;
+        height: 110px;
+        
+    }
+    form{
+        size:50%;
+        float: right;
+        bottom: 30%;
+        
+        margin-left: 10px;
+        margin-right: 22px;
+   
+    }
+    .label1{
+        font-size: 23px;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    #number{
+        width: 80px;
+        height: 40px;
+        font-size: 30px;
+        
+    }
+
+
+
+    .tdinput1{
+        size:50%;
+        float: right;
+        top: 50%;
+        margin-right: 20px;
+        margin-right: 40px;
+        margin-left: 20px;
+        float: left;
+        
+    }
+    label{
+        font-size: 23px;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    #number1{
+        width: 80px;
+        height: 40px;
+        font-size: 30px;
+        
+    }
+    #submit1{
+        width: 100px;
+        height: 40px;
+        font-size: 20px;
+     
+  
+    }
+
+    .input2l{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .b401{
+        background-color: rgb(255, 104, 157);
+        color: white;
+        width: 220px;
+        height: 100px;
+        margin-left: 80px;
+        margin-top: 10px;
+        font-size: 30px;
+        float: left;
+        margin-right: 70px;
+       
+    }
+    .b401:hover{
+        background-color:  rgb(26, 185, 18);
+        color: black;
+        width: 220px;
+        height: 110px;}
+
+   
+    
+   

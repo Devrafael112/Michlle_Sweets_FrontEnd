@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style-carrinho.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+
+  <title>Document</title>
+</head>
+
+<body>
+
+  <section class="h-100 gradient-custom">
+    <div class="container py-5">
+      <div class="row d-flex justify-content-center my-5">
+        <div class="col-md-8">
+          <div class="card mb-4">
+            <div class="card-header py-3">
+              <h4 class="mb-0">Carrinho </h4>
+            </div>
+            <div class="card-body">
+              <!-- Single item -->
+              <div class="row">
+                <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
+                  <!-- Image -->
+                  <div class="bg-image hover-overlay hover-zoom ripple rounded" data-mdb-ripple-color="light">
+                    <img src="img/torta final.jpg" class="w-100" alt="Torta" />
+                    <a href="#!">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+                    </a>
+                  </div>
+                  <!-- Image -->
+                </div>
+
+                <div class="col-lg-5 col-md-6 mb-4 mb-lg-0">
+                  <!-- Data -->
+                  <p><strong>Torta de Morango</strong></p>
+                  <p>Tamanho: M</p>
+                  <button type="button" class="btn btn-danger btn-sm mb-2" data-mdb-toggle="tooltip"
+                    title="Remover item">
+                    <i class="fas fa-heart">X</i>
+                  </button>
+                  <!-- Data -->
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                  <!-- Quantity -->
+                  <div class="d-flex mb-4" style="max-width: 300px">
+                    <button class="btn btn-primary px-3 me-2" style="max-height: 40px;"
+                      onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                      <i class="fas fa-minus"> - </i>
+                    </button>
+
+                    <div class="form-outline">
+                      <input id="form1" min="0" name="quantity" value="1" type="number" class="form-control" />
+                      <label class="form-label" for="form1">Quantidade</label>
+                    </div>
+
+                    <button class="btn btn-primary px-3 ms-2" style="max-height: 40px;"
+                      onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                      <i class="fas fa-plus">+</i>
+                    </button>
+                  </div>
+                  <!-- Quantity -->
+
+                  <!-- Price -->
+                  <p class="text-start text-md-center">
+                    <strong>R$120,00</strong>
+                  </p>
+                  <!-- Price -->
+                </div>
+              </div>
+              <!-- Single item -->
+
+              <hr class="my-4" />
+
+              <!-- Single item -->
+              <div class="row">
+                <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
+                  <!-- Image -->
+                  <div class="bg-image hover-overlay hover-zoom ripple rounded" data-mdb-ripple-color="light">
+                    <img src="img/torta 1.webp" class="w-100" />
+                    <a href="#!">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+                    </a>
+                  </div>
+                  <!-- Image -->
+                </div>
+
+                <div class="col-lg-5 col-md-6 mb-4 mb-lg-0">
+                  <!-- Data -->
+                  <p><strong>Bolo de Chocolate</strong></p>
+                  <p>Tamanho: PP</p>
+                  <button type="button" class="btn btn-danger btn-sm mb-2" data-mdb-toggle="tooltip"
+                    title="Move to the wish list">
+                    <i class="fas fa-heart">X</i>
+                  </button>
+                  <!-- Data -->
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                  <!-- Quantity -->
+                  <div class="d-flex mb-4" style="max-width: 300px">
+                    <button class="btn btn-primary px-3 me-2" style="max-height: 40px;"
+                      onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                      <i class="fas fa-minus"> - </i>
+                    </button>
+
+                    <div class="form-outline">
+                      <input id="form1" min="0" name="quantity" value="1" type="number" class="form-control" />
+                      <label class="form-label" for="form1">Quantidade</label>
+                    </div>
+
+                    <button class="btn btn-primary px-3 ms-2" style="max-height: 40px;"
+                      onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                      <i class="fas fa-plus">+</i>
+                    </button>
+                  </div>
+                  <!-- Quantity -->
+
+                  <!-- Price -->
+                  <p class="text-start text-md-center">
+                    <strong>R$30,00</strong>
+                  </p>
+                  <!-- Price -->
+                </div>
+              </div>
+              <!-- Single item -->
+            </div>
+          </div>
+
+          <div class="card mb-4 mb-lg-0">
+
+          </div>
+
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <div class="card-header py-3">
+              <h5 class="mb-0">Resumo</h5>
+            </div>
+            <div class="card-body">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-0">
+                  Produtos
+                  <span>R$ 150,00</span>
+                </li>
+
+
+                <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 mb-3">
+                  <div>
+                    <strong>Valor Total</strong>
+                  </div>
+                  <span><strong>R$ 150,00</strong></span>
+                </li>
+              </ul>
+
+              <a href="forma.pagamento.html"> <button type="button" class="btn btn-primary btn-lg btn-block">
+                Confirmar
+              </button> </a>
+              <hr>
+              <form class="formulario">
+                <div class="mb-3">
+                  <h6 class="p1" ><b>Preencha algumas informações antes de continuar</b></h6>
+                  <label for="exampleInputEmail1" class="form-label">Nome</label>
+                  <input type="name" class="form-control" id="exampleInputName" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Telefone</label>
+                  <input type="tel" class="form-control" id="exampleInputTel" aria-describedby="emailHelp">  
+                </div>
+                <button type="submit" class="btn btn-primary">Confirmar</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <footer class="footer">
+    <ul class="social-icon">
+      <li class="social-icon_item"><a class="social-icon_link" href="https://www.instagram.com/michelle_albuquerque_/">
+          <img src="img/instagramlogo2.png" alt="">
+        </a></li>
+      <li class="social-icon_item"><a class="social-icon_link" href="mailto:michelle_sweets@gmail.com"><img
+            src="img//arroba.png" alt="">
+        </a></li>
+    </ul>
+    <p>© Michelle Sweets | Todos os direitos reservados.</p>
+  </footer>
+
+
+  <script src="script-carrinho.js"></script>
+  <section id="seta">
+    <a class="arrow-link" title="voltar a pagina inicial" href="index.html"></a>
+    <i class="fa-arrow-up"></i>
+  </section>
+
+  <script src="carrinho.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
